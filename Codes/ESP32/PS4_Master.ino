@@ -18,7 +18,7 @@ byte led = 0;
 void setup()
 {
   Serial.begin(115200);
-  PS4.begin("48:5f:99:09:76:b2");  //MAC address of your PS4
+  PS4.begin("43:1f:09:e9:a6:b2");  //MAC address of your PS4
   pinMode(led_pin, OUTPUT);
 }
 
